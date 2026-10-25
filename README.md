@@ -7,6 +7,10 @@ sintetizada en tiempo real.
 
 Está disponible para **Linux**, **Windows** y **Android**.
 
+**Descargas:** [Windows x64](https://github.com/Illuzzi-code/la-ultima-luciernaga/releases/download/v1.0.0/la-ultima-luciernaga-1.0-windows-x64.zip) ·
+[Android APK](https://github.com/Illuzzi-code/la-ultima-luciernaga/releases/download/v1.0.0/la-ultima-luciernaga-1.0-android.apk) ·
+[Linux (compilar)](https://github.com/Illuzzi-code/la-ultima-luciernaga#linux)
+
 ![El sendero](captures/03_sendero.png)
 
 ## Historia
@@ -89,8 +93,8 @@ título cierra el juego. Si sales de la app, la partida se pausa sola.
 | Plataforma | Ubicación | Requisitos |
 |---|---|---|
 | Linux | `la-ultima-luciernaga` (compilar con `make`) | SDL2 |
-| Windows | `dist/windows/` | Windows 7+ 64 bits |
-| Android | `dist/android/la-ultima-luciernaga.apk` | Android 5.0+ |
+| Windows | [`la-ultima-luciernaga-1.0-windows-x64.zip`](https://github.com/Illuzzi-code/la-ultima-luciernaga/releases/download/v1.0.0/la-ultima-luciernaga-1.0-windows-x64.zip) o `dist/windows/` | Windows 7+ 64 bits |
+| Android | [`la-ultima-luciernaga-1.0-android.apk`](https://github.com/Illuzzi-code/la-ultima-luciernaga/releases/download/v1.0.0/la-ultima-luciernaga-1.0-android.apk) o `dist/android/` | Android 5.0+ |
 
 Cada carpeta de distribución incluye un `LEEME.txt` con instrucciones
 específicas de instalación y controles.

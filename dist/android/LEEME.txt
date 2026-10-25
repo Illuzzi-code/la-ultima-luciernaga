@@ -1,0 +1,63 @@
+LA ÚLTIMA LUCIÉRNAGA — Versión Android
+=====================================
+
+Un pequeño platformer narrativo en español, de unos 5 minutos.
+Hecho con C++17 + SDL2. No requiere conexión ni permisos especiales.
+
+INSTALAR
+--------
+1. Copia "la-ultima-luciernaga.apk" al teléfono o tablet.
+2. Ábrelo desde el explorador de archivos.
+3. Si Android lo pide, permite instalar aplicaciones de origen desconocido
+   para esa aplicación (Ajustes > Seguridad).
+4. Abre el juego desde el cajón de aplicaciones.
+
+También puedes instalarlo desde un ordenador con ADB:
+
+  adb install -r la-ultima-luciernaga.apk
+
+Requisitos: Android 5.0 (API 21) o superior. Arquitecturas arm64, armv7,
+x86 y x86_64.
+
+CÓMO SE JUEGA
+-------------
+El juego se abre en horizontal y a pantalla completa. Los controles están
+en la propia pantalla:
+
+  ‹  ›  (abajo a la izquierda) ... moverse
+  ⌃     (abajo a la derecha) .... saltar (mantén para saltar más alto)
+  Luz   (derecha) ............... interactuar / soltar luciérnagas
+  ❚❚    (arriba a la derecha) ... pausa
+
+Toca la pantalla para avanzar el prólogo, los diálogos y los menús.
+
+El botón Atrás de Android pausa la partida; en pausa la reanuda, y desde el
+título cierra el juego. Si sales de la app, la partida se pausa sola.
+
+RESOLUCIÓN
+----------
+El juego se dibuja en HD (1280x720) y se escala a la resolución real de la
+pantalla. En móviles panorámicos (19.5:9, 20:9, etc.) la imagen se estira
+ligeramente en horizontal para ocupar toda la pantalla, sin bordes negros.
+Se ve todo el escenario y la interfaz.
+
+CAPTURAS
+--------
+Si conectas un teclado, F12 guarda capturas en el almacenamiento privado de
+la aplicación:
+
+  /data/data/com.ericson.luciernaga/files/
+
+Para sacarlas al ordenador:
+
+  adb shell run-as com.ericson.luciernaga ls files
+  adb exec-out run-as com.ericson.luciernaga cat files/luciernaga_01.png > captura.png
+
+CRÉDITOS
+--------
+Gráficos: Kenney (Pixel Platformer, CC0).
+Tipografías: Pixelify Sans y Lora (SIL OFL 1.1).
+SDL2 (zlib), stb (dominio público).
+Historia, código y música procedural: proyecto original.
+
+Más información en README.md.

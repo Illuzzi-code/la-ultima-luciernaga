@@ -1,0 +1,22 @@
+# Compilación de PC
+*.o
+/la-ultima-luciernaga
+/luciernaga
+
+# Android (Gradle + NDK)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/.cxx/
+.cxx/
+
+# Capturas sueltas de pruebas (las de make capture sí se versionan)
+captures/luciernaga_*.png
+
+# Sistema y editores
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/

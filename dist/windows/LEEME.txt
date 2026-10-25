@@ -1,0 +1,50 @@
+LA ÚLTIMA LUCIÉRNAGA — Versión Windows
+=====================================
+
+Un pequeño platformer narrativo en español, de unos 5 minutos.
+Hecho con C++17 + SDL2. No necesita instalación.
+
+CÓMO JUGAR
+----------
+1. Descomprime o copia la carpeta COMPLETA (no muevas el .exe solo).
+2. Abre "la-ultima-luciernaga.exe".
+
+La carpeta debe conservar esta estructura:
+
+  la-ultima-luciernaga.exe
+  SDL2.dll
+  libwinpthread-1.dll
+  assets\
+  captures\        (capturas de ejemplo; el juego también guarda aquí las tuyas)
+
+Requisitos: Windows 7 o superior, 64 bits.
+
+CONTROLES
+---------
+  A / D o flechas ....... moverse
+  Espacio / W / ↑ / Z ... saltar
+  E ..................... interactuar / avanzar diálogo
+  Enter / Espacio ....... confirmar y avanzar diálogo
+  Esc o P ............... pausa
+  F11 ................... pantalla completa
+  F12 ................... guardar captura en captures\
+  Mando ................. A salta, B interactúa, Start pausa
+
+También puedes arrancar directamente a pantalla completa:
+
+  la-ultima-luciernaga.exe --fullscreen
+
+RESOLUCIÓN
+----------
+El juego se dibuja internamente en HD (1280x720) y se escala a la resolución
+real del monitor. En pantalla completa ocupa toda la pantalla, sin bordes
+negros, y la ventana se puede redimensionar libremente.
+
+CRÉDITOS
+--------
+Gráficos: Kenney (Pixel Platformer, CC0).
+Tipografías: Pixelify Sans y Lora (SIL OFL 1.1).
+SDL2 (zlib), stb (dominio público).
+Historia, código y música procedural: proyecto original.
+
+Más información en README.md.
